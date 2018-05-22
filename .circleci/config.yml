@@ -43,4 +43,4 @@ jobs:
 
       #Codecov 
       - run: mvn cobertura:cobertura
-- run: bash <(curl -s https://codecov.io/bash) -t 48ba9d38-aec1-4136-9bce-dbbe8575c9eb
+      - run: bash <(curl -s https://codecov.io/bash) -t 48ba9d38-aec1-4136-9bce-dbbe8575c9eb
